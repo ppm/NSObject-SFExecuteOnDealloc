@@ -62,7 +62,7 @@
 #import <Foundation/Foundation.h>
 
 
-#define SF_EXECUTE_ON_DEALLOC_USE_SHORTHAND 1
+#define SF_EXECUTE_ON_DEALLOC_USE_SHORTHAND 0
 
 @interface NSObject (SFExecuteOnDealloc)
 #if SF_EXECUTE_ON_DEALLOC_USE_SHORTHAND
