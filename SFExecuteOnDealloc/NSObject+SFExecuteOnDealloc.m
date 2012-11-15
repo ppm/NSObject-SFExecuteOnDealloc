@@ -61,7 +61,7 @@
 #endif
 {
   //! first cleanup the associated block
-  SFExecuteOnDeallocInternalObject *internalObject = objc_getAssociatedObject(self, AH_BRIDGE(blockKey));
+  SFExecuteOnDeallocInternalObject *internalObject = objc_getAssociatedObject(self, blockKey);
   internalObject.block = nil;
 
   //! release internal object
